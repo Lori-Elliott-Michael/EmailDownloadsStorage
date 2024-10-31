@@ -1,4 +1,4 @@
-This extension stores files downloaded from emails for later investigation. It stores then in a folder called EmailAttachments. The owner of the computer will have to configure their logging or backup systems to further copy files from the EmailAttachments folder to a more secure location for later investigation, such as on a separate server.
+This is a browser extension to store files downloaded from emails for later investigations againt phishing campaigns. It stores then in a folder called EmailAttachments. The owner of the computer will have to configure their logging or backup systems to further copy files from the EmailAttachments folder to a more secure location for later investigation, such as on a separate server.
 
 Phishing accounts for 36% of data breaches. About half of the data breaches happen through email, and about 20-30% of the email phishing attacks happen through file downloads (other phishing emails typically contain malicious urls). Thus, about 2% of these attacks happen through email malicioius file downloads. 
 
