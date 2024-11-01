@@ -1,0 +1,19 @@
+{ 
+
+  "manifest_version": 3, 
+
+  "name": "File Copier", 
+
+  "version": "1.0", 
+
+  "description": "Copies downloaded files from email attachments to another directory", 
+
+  "permissions": ["downloads", "notifications", "downloads.shelf"], 
+
+  "background": { 
+
+    "service_worker": "background.js" 
+
+  } 
+
+} 
