@@ -1,19 +1,21 @@
-{ 
+{
+  "manifest_version": 3,
 
-  "manifest_version": 3, 
+  "name": "Store email files, urls",
 
-  "name": "File Copier", 
+  "version": "1.0",
 
-  "version": "1.0", 
+  "description": "Stores copies of downloaded email attachments and clicked links for later forensic investigation.",
 
-  "description": "Copies downloaded files from email attachments to another directory", 
+  "permissions": ["downloads", "notifications", "downloads.shelf"],
 
-  "permissions": ["downloads", "notifications", "downloads.shelf"], 
-
-  "background": { 
-
-    "service_worker": "background.js" 
-
-  } 
-
-} 
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
